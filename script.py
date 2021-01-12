@@ -13,11 +13,8 @@ print(pkg_resources.get_distribution("requests").version)
 
 # Get and print Google home page
 googleResp= requests.get(googleURL)
-print(googleResp.text)
+print(googleResp)
 
-# Get and print github script home page
+# Get and print script text
 githubResp = requests.get(githubURL)
-f = open('githubFileName.txt', 'w')
-f.write(githubResp.text)
-f.close()
 print(githubResp.text)
