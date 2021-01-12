@@ -1,0 +1,25 @@
+Author: Ian Seng Wok
+Question 1: What is your GitHub URL?
+
+Question 2: What version is the requests library installed on the system?
+2.25.1
+
+Question 3: What version is the requests library installed in the virtualenv?
+2.25.1
+
+Question 4: What is the difference between the virtual environment and the not virtual environment python?
+
+A virtual environemnt python is completely isolated from the dependencis/packages installed within the system python, 
+which is the not virtual environment python. With the Leverage of vitrual environment allows us avaoid dependencis 
+issue and ease out the hassle of sharing project with devices that is running on a different dependencis/packages 
+version.  
+
+Question 5: What status code is returned for http://google.com ? What URL must you visit to get a 200 status code?
+error status code: 301 Moved
+URL to get 200: http://www.google.com/
+
+curl -i http://google.com/teapot (return): 301 Moved
+curl -iL http://google.com/ (return): 200 successful with html body and HTTP headers 
+
+curl -i http://www.google.com/teapot (return): 200 successful with html body and HTTP headers 
+curl -iL http://www.google.com/teapot (return): 200 successful with html body and HTTP headers 
