@@ -31,4 +31,4 @@ Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle
 A few new items are being added into the decription list. 
 
 Question 8: 
-https://raw.githubusercontent.com/IanSeng/cmput-404-lab-1/master/script.py
+https://raw.githubusercontent.com/IanSeng/cmput-404-lab-1/main/script.py

@@ -4,7 +4,7 @@ import requests
 # google URL 
 googleURL = 'https://google.com'
 # github URL 
-githubURL = 'https://raw.githubusercontent.com/IanSeng/cmput-404-lab-1/main/script.py'
+githubURL = 'https://raw.githubusercontent.com/IanSeng/cmput-404-lab-1/master/script.py'
 # github output file name 
 githubFileName = 'githubOutput.txt'
 
@@ -16,7 +16,7 @@ googleResp= requests.get(googleURL)
 print(googleResp.text)
 
 # Get and print github script home page
-githubResp = requests.get(githubURL)
-f = open('githubFileName.txt', 'w')
+githubResp = requests.get(url)
+f = open('githubFileName', 'w')
 f.write(githubResp.text)
 f.close()
