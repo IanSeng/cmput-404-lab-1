@@ -1,5 +1,7 @@
 Author: Ian Seng Wok
+
 Question 1: What is your GitHub URL?
+https://github.com/IanSeng
 
 Question 2: What version is the requests library installed on the system?
 2.25.1
@@ -27,3 +29,6 @@ curl -iL http://www.google.com/teapot (return): 200 successful with html body an
 
 Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
 A few new items are being added into the decription list. 
+
+Question 8: 
+https://raw.githubusercontent.com/IanSeng/cmput-404-lab-1/master/script.py
