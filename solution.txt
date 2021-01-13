@@ -10,11 +10,8 @@ Question 3: What version is the requests library installed in the virtualenv?
 2.25.1
 
 Question 4: What is the difference between the virtual environment and the not virtual environment python?
-
-A virtual environemnt python is completely isolated from the dependencis/packages installed within the system python, 
-which is the not virtual environment python. With the Leverage of vitrual environment allows us avaoid dependencis 
-issue and ease out the hassle of sharing project with devices that is running on a different dependencis/packages 
-version.  
+2.25.1 
+- Note: Both environemnts installed the package at the same time, hance, having the same version
 
 Question 5: What status code is returned for http://google.com ? What URL must you visit to get a 200 status code?
 error status code: 301 Moved
@@ -28,7 +25,18 @@ curl -i http://www.google.com/teapot (return): 200 successful with html body and
 curl -iL http://www.google.com/teapot (return): 200 successful with html body and HTTP headers 
 
 Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
-A few new items are being added into the decription list. 
+A few new items are being added into the decription list and the request method is now POST. 
+
+For instance: 
+<DL>
+<DT>X: <i>&lt;type 'instance'&gt;</i>
+<DD>MiniFieldStorage('X', 'Y')
+</DL> 
+
+<DT> CONTENT_LENGTH <DD> 3
+<DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
+
+<DT> REQUEST_METHOD <DD> POST
 
 Question 8: 
 https://raw.githubusercontent.com/IanSeng/cmput-404-lab-1/main/script.py
