@@ -1,5 +1,3 @@
-Author: Ian Seng Wok
-
 Question 1: What is your GitHub URL?
 https://github.com/IanSeng
 
@@ -19,10 +17,10 @@ URL to get 200: http://www.google.com/
 
 Question 6: What status code is returned for http://google.com/teapot? Is it the one returned by curl -i or curl -iL? What happens when you curl http://www.google.com/teapot?
 curl -i http://google.com/teapot (return): 301 Moved
-curl -iL http://google.com/ (return): 200 successful with html body and HTTP headers 
+curl -iL http://google.com/ (return): 200 successful with html body (it was redirected to http://www.google.com/)
 
-curl -i http://www.google.com/teapot (return): 200 successful with html body and HTTP headers 
-curl -iL http://www.google.com/teapot (return): 200 successful with html body and HTTP headers 
+curl -i http://www.google.com/teapot (return): 418 I'm a Teapot with html body 
+curl -iL http://www.google.com/teapot (return): 418 I'm a Teapot with html body 
 
 Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
 A few new items are being added into the decription list and the request method is now POST. 
